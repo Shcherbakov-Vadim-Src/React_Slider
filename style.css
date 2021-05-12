@@ -1,0 +1,46 @@
+.conteiner-main {
+    padding: 30px 0 0 30px;
+}
+
+.conteiner{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    margin: 25px 0px 0 0px;
+}
+
+.conteinerTwo {
+    display: flex;
+    justify-content: center;
+}
+
+.photo {
+    width: 1050px;
+    margin: 0 auto;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.subPhoto {
+    width: 105px;
+    margin: 0 15px 0 10px;
+}
+
+.subPhoto:hover {
+    width: 115px;
+    margin: 0 10px 0 10px;
+    border: 2px solid gold;
+}
+
+body {
+    background-color: rgb(248, 245, 225);
+}
